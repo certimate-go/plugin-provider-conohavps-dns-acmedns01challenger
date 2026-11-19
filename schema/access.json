@@ -1,0 +1,89 @@
+{
+  "schemaVersion": "form/v1",
+  "provider": "conohavps",
+  "category": "access",
+  "schema": {
+    "columns": [
+      {
+        "name": "apiVersion",
+        "valueType": "select",
+        "labelKey": "plugin.conohavps-dns.access.apiVersion.label",
+        "placeholderKey": "plugin.conohavps-dns.access.apiVersion.placeholder",
+        "required": true,
+        "default": "v3",
+        "options": [
+          {
+            "value": "v2"
+          },
+          {
+            "value": "v3"
+          }
+        ]
+      },
+      {
+        "name": "apiUserName",
+        "valueType": "text",
+        "labelKey": "plugin.conohavps-dns.access.apiUserName.label",
+        "tooltipKey": "plugin.conohavps-dns.access.apiUserName.tooltip",
+        "tooltipHtml": true,
+        "placeholderKey": "plugin.conohavps-dns.access.apiUserName.placeholder",
+        "required": true
+      },
+      {
+        "name": "apiPassword",
+        "valueType": "secret",
+        "labelKey": "plugin.conohavps-dns.access.apiPassword.label",
+        "tooltipKey": "plugin.conohavps-dns.access.apiPassword.tooltip",
+        "tooltipHtml": true,
+        "placeholderKey": "plugin.conohavps-dns.access.apiPassword.placeholder",
+        "secret": true,
+        "required": true
+      },
+      {
+        "name": "tenantId",
+        "valueType": "text",
+        "labelKey": "plugin.conohavps-dns.access.tenantId.label",
+        "tooltipKey": "plugin.conohavps-dns.access.tenantId.tooltip",
+        "tooltipHtml": true,
+        "placeholderKey": "plugin.conohavps-dns.access.tenantId.placeholder",
+        "required": true
+      },
+      {
+        "name": "apiUserId",
+        "valueType": "text",
+        "labelKey": "plugin.conohavps-dns.access.apiUserId.label",
+        "tooltipKey": "plugin.conohavps-dns.access.apiUserId.tooltip",
+        "tooltipHtml": true,
+        "placeholderKey": "plugin.conohavps-dns.access.apiUserId.placeholder",
+        "required": true,
+        "visibleWhen": [
+          {
+            "field": "apiVersion",
+            "op": "eq",
+            "values": [
+              "v3"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "tenantName",
+        "valueType": "text",
+        "labelKey": "plugin.conohavps-dns.access.tenantName.label",
+        "tooltipKey": "plugin.conohavps-dns.access.tenantName.tooltip",
+        "tooltipHtml": true,
+        "placeholderKey": "plugin.conohavps-dns.access.tenantName.placeholder",
+        "required": true,
+        "visibleWhen": [
+          {
+            "field": "apiVersion",
+            "op": "eq",
+            "values": [
+              "v3"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

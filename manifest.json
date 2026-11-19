@@ -1,0 +1,18 @@
+{
+  "access_provider_type": "conohavps",
+  "binary": "conohavps-dns.exe",
+  "capability": "dns",
+  "description": "ACME DNS-01 via ConoHa VPS.",
+  "display_name_key": "plugin.conohavps-dns.name",
+  "icon": "icon.svg",
+  "min_core_version": "",
+  "protocol_version": 4,
+  "provider_type": "conohavps-dns",
+  "provider_aliases": [
+    "conohavps"
+  ],
+  "usages": [
+    "dns"
+  ],
+  "version": "0.1.0"
+}

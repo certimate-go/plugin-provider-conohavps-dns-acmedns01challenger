@@ -1,0 +1,21 @@
+{
+  "plugin.conohavps-dns.name": "ConoHa VPS",
+  "plugin.conohavps-dns.description": "通过 ConoHa VPS 完成 ACME DNS-01 验证。",
+  "plugin.conohavps-dns.access.apiVersion.label": "ConoHa VPS 版本",
+  "plugin.conohavps-dns.access.apiVersion.placeholder": "请选择 ConoHa VPS 版本",
+  "plugin.conohavps-dns.access.apiUserName.label": "ConoHa VPS API 用户名",
+  "plugin.conohavps-dns.access.apiUserName.tooltip": "这是什么？请参阅 <a href=\"https://doc.conoha.jp/reference/api-vps2/api-guideline-vps2/api-guideline-v2/\" target=\"_blank\">https://doc.conoha.jp/reference/api-vps2/api-guideline-vps2/api-guideline-v2/</a>",
+  "plugin.conohavps-dns.access.apiUserName.placeholder": "请输入 ConoHa VPS 2.0 API 用户名",
+  "plugin.conohavps-dns.access.apiPassword.label": "ConoHa VPS API 密码",
+  "plugin.conohavps-dns.access.apiPassword.tooltip": "这是什么？请参阅 <a href=\"https://doc.conoha.jp/reference/api-vps2/api-guideline-vps2/api-guideline-v2/\" target=\"_blank\">https://doc.conoha.jp/reference/api-vps2/api-guideline-vps2/api-guideline-v2/</a>",
+  "plugin.conohavps-dns.access.apiPassword.placeholder": "请输入 ConoHa VPS 2.0 API 密码",
+  "plugin.conohavps-dns.access.tenantId.label": "ConoHa VPS 租户 ID",
+  "plugin.conohavps-dns.access.tenantId.tooltip": "这是什么？请参阅 <a href=\"https://doc.conoha.jp/reference/api-vps2/api-identity-vps2/identity-post_tokens-v2/\" target=\"_blank\">https://doc.conoha.jp/reference/api-vps2/api-identity-vps2/identity-post_tokens-v2/</a>",
+  "plugin.conohavps-dns.access.tenantId.placeholder": "请输入 ConoHa VPS 2.0 租户 ID",
+  "plugin.conohavps-dns.access.apiUserId.label": "ConoHa VPS API 用户 ID",
+  "plugin.conohavps-dns.access.apiUserId.tooltip": "这是什么？请参阅 <a href=\"https://doc.conoha.jp/reference/api-vps3/api-cp-vps3/cp-create_api_user-v3/\" target=\"_blank\">https://doc.conoha.jp/reference/api-vps3/api-cp-vps3/cp-create_api_user-v3/</a>",
+  "plugin.conohavps-dns.access.apiUserId.placeholder": "请输入 ConoHa VPS 3.0 API 用户 ID",
+  "plugin.conohavps-dns.access.tenantName.label": "ConoHa VPS 项目名称",
+  "plugin.conohavps-dns.access.tenantName.tooltip": "这是什么？请参阅 <a href=\"https://doc.conoha.jp/reference/api-vps3/api-cp-vps3/cp-get_api_info-v3/\" target=\"_blank\">https://doc.conoha.jp/reference/api-vps3/api-cp-vps3/cp-get_api_info-v3/</a>",
+  "plugin.conohavps-dns.access.tenantName.placeholder": "请输入 ConoHa VPS 3.0 租户项目名称"
+}

@@ -1,0 +1,21 @@
+{
+  "plugin.conohavps-dns.name": "ConoHa VPS",
+  "plugin.conohavps-dns.description": "ACME DNS-01 via ConoHa VPS.",
+  "plugin.conohavps-dns.access.apiVersion.label": "ConoHa VPS version",
+  "plugin.conohavps-dns.access.apiVersion.placeholder": "Please select ConoHa VPS version",
+  "plugin.conohavps-dns.access.apiUserName.label": "ConoHa VPS API username",
+  "plugin.conohavps-dns.access.apiUserName.tooltip": "For more information, see <a href=\"https://doc.conoha.jp/reference/api-vps2/api-guideline-vps2/api-guideline-v2/\" target=\"_blank\">https://doc.conoha.jp/reference/api-vps2/api-guideline-vps2/api-guideline-v2/</a>",
+  "plugin.conohavps-dns.access.apiUserName.placeholder": "Please enter ConoHa VPS 2.0 API username",
+  "plugin.conohavps-dns.access.apiPassword.label": "ConoHa VPS API password",
+  "plugin.conohavps-dns.access.apiPassword.tooltip": "For more information, see <a href=\"https://doc.conoha.jp/reference/api-vps2/api-guideline-vps2/api-guideline-v2/\" target=\"_blank\">https://doc.conoha.jp/reference/api-vps2/api-guideline-vps2/api-guideline-v2/</a>",
+  "plugin.conohavps-dns.access.apiPassword.placeholder": "Please enter ConoHa VPS 2.0 API password",
+  "plugin.conohavps-dns.access.tenantId.label": "ConoHa VPS tenant ID",
+  "plugin.conohavps-dns.access.tenantId.tooltip": "For more information, see <a href=\"https://doc.conoha.jp/reference/api-vps2/api-identity-vps2/identity-post_tokens-v2/\" target=\"_blank\">https://doc.conoha.jp/reference/api-vps2/api-identity-vps2/identity-post_tokens-v2/</a>",
+  "plugin.conohavps-dns.access.tenantId.placeholder": "Please enter ConoHa VPS 2.0 tenant ID",
+  "plugin.conohavps-dns.access.apiUserId.label": "ConoHa VPS API user ID",
+  "plugin.conohavps-dns.access.apiUserId.tooltip": "For more information, see <a href=\"https://doc.conoha.jp/reference/api-vps3/api-cp-vps3/cp-create_api_user-v3/\" target=\"_blank\">https://doc.conoha.jp/reference/api-vps3/api-cp-vps3/cp-create_api_user-v3/</a>",
+  "plugin.conohavps-dns.access.apiUserId.placeholder": "Please enter ConoHa VPS 3.0 API user ID",
+  "plugin.conohavps-dns.access.tenantName.label": "ConoHa VPS project name",
+  "plugin.conohavps-dns.access.tenantName.tooltip": "For more information, see <a href=\"https://doc.conoha.jp/reference/api-vps3/api-cp-vps3/cp-get_api_info-v3/\" target=\"_blank\">https://doc.conoha.jp/reference/api-vps3/api-cp-vps3/cp-get_api_info-v3/</a>",
+  "plugin.conohavps-dns.access.tenantName.placeholder": "Please enter ConoHa VPS 3.0 tenant project name"
+}
